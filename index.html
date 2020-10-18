@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<title>BestBike</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<a class="header__logo" href="#"><img class="logo" src="images/logo.png" alt="BestBike Logo"></a>
+			<nav class="header__nav">
+				<ul class="header__linklist">
+					<li class="header__item">
+						<a class="header__link">ВЕЛОСИПЕДЫ<i class="fa fa-angle-right"></i></a>
+						<ul class="dropmenu">
+							<li class="dropmenu__item"><a href="#" class="dropmenu__link" target="_self">Горные велосипеды</a></li>
+							<li class="dropmenu__item"><a href class="dropmenu__link" target="_self">Женские велосипеды</a></li>
+							<li class="dropmenu__item"><a href class="dropmenu__link" target="_self">Фэтбайки</a></li>
+							<li class="dropmenu__item"><a href class="dropmenu__link" target="_self">Дорожные велосипеды</a></li>
+						</ul>
+					</li>
+				 	<li class="header__item">
+						<a class="header__link">АКСЕССУАРЫ<i class="fa fa-angle-right"></i></a>
+						<ul class="dropmenu">
+							<li class="dropmenu__item small"><a href="#" class="dropmenu__link" target="_selfk">Ссылка 1</a></li>
+							<li class="dropmenu__item small"><a href class="dropmenu__link" target="_self">Ссылка 2</a></li>
+							<li class="dropmenu__item small"><a href class="dropmenu__link" target="_self">Ссылка 3</a></li>
+						</ul>
+					</li>
+				 	<li class="header__item">
+						<a class="header__link">ЗАПЧАСТИ<i class="fa fa-angle-right"></i></a>
+						<ul class="dropmenu">
+							<li class="dropmenu__item small"><a href="#" class="dropmenu__link" target="_self">Ссылка 1</a></li>
+							<li class="dropmenu__item small"><a href class="dropmenu__link" target="_self">Ссылка 2</a></li>
+							<li class="dropmenu__item small"><a href class="dropmenu__link" target="_self">Ссылка 3</a></li>
+							<li class="dropmenu__item small"><a href class="dropmenu__link" target="_self">Ссылка 4</a></li>
+						</ul>
+					</li>
+				</ul>								
+			</nav>
+			<form class="searchbox">
+				<div class="searchfield">
+					<input class="search" type="text" name="searchfield"></input>
+				</div>
+				<button class="search__btn" name="search" action="#"><i class="fa fa-search"></i></button>
+			</form>
+			<div class="header__links">
+				<div class="header__links--links">
+					<a class="header__links--link" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a class="header__links--link" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a class="header__links--link" href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+				</div>
+				<a class="header__tel" href="tel:+380639404740">+38 (063) 940 47 40</a>
+			</div>
+		</header>
+		<main> <!--Далее блоки страницы буду оборачивать в div, так как section не поддерживается браузерами Opera Mini и любыми версиями IE-->
+			<div class="fotorama" data-arrows="false" data-click="true" data-swipe="true" data-width="100%">
+				<!-- Пришлось использовать данную библиотеку, где невозможно стилизовать переключатели. -->
+			  <img src="images/slider.png">
+			  <img src="images/slider.png">
+			  <img src="images/slider.png">
+			  <img src="images/slider.png">
+			  <img src="images/slider.png">
+			</div>
+			<div class="advantages">
+				<h2 class="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
+				<div class="advantages__items">
+					<div class="advantages__item">
+						<div class="advantages__item--square"><img class="minitools" src="images/minitools.png" alt=""></div>
+						<div class="advantures__text">
+							<h3 class="advantages__item--title">ПРЕДПРОДАЖНАЯ СБОРКА И НАСТРОЙКА</h3>
+							<p class="advantages__item--paragraph">
+								Мы предоставляем услугу сборки,настройки и предпродажной подготовки перед тем как велосипед отправится на почту,это делается БЕСПЛАТНО. Бесплатная сборка и настройка не распостраняется на велосипеды брендов: Crosser,Ardis,Crossride,Totem,Azimut,Avanti,Intenzo.
+							</p>
+						</div>
+					</div>
+					<div class="advantages__item">
+						<div class="advantages__item--square"><img class="support" src="images/support.png" alt=""></div>
+						<div class="advantures__text">
+								<h3 class="advantages__item--title">ПОМОЩЬ В ВЫБОРЕ</h3>
+							<p class="advantages__item--paragraph">
+								Имея большой опыт в вело продаже, мы поможем сделать правильный выбор,правильно подберем размер рамы, учтем все ваши пожелания.
+								С 2014 года мы занимаемся продажей велосипедов,сами являемся велосипедистами со стажем.
+							</p>
+						</div>
+					</div>	
+					<div class="advantages__item">
+						<div class="advantages__item--square"><img class="book" src="images/book.png" alt=""></div>
+						<div class="advantures__text">
+							<h3 class="advantages__item--title">СБОРКА И НАСТРОЙКА</h3>
+							<p class="advantages__item--paragraph">
+								Мы знакомы с велосипедами не на теории,а на практике. На большинство велосипедов снимаем видео обзоры. На видео мы рассказываем о комплектации байка,где его лучше эксплуатировать, а также свое мнение о велосипеде.
+							</p>
+						</div>
+					</div>	
+					<div class="advantages__item">
+						<div class="advantages__item--square"><img class="headset" src="images/headset.png" alt=""></div>
+						<div class="advantages__text">
+							<h3 class="advantages__item--title">ВИДЕО ОБЗОРЫ</h3>
+							<p class="advantages__item--paragraph">
+								Мы знакомы с велосипедами не на теории,а на практике. На большинство велосипедов снимаем видео обзоры.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about_us__background">
+				<div class="about_us">
+					<h2 class="about__us__title">О НАС</h2>
+					<div class="about__us__text">
+						<p class="about_us__paragraph">
+							Каждый из всех людей хотя бы один раз в своей жизни пробовал прокатиться на велосипеде и наверняка на всю жизнь запомнил непередаваемые эти ощущения счастья и равновесия.
+						</p>
+						<p class="about_us__paragraph">
+							История нашего интернет-магазина "Best-bike" началась в 2009 году. Мы заядлые любители велоспорта и как только у нас появляется свободное время,мы едем на трассу здоровья и наматываем там не один круг. А также участвуем во всех любительских вело соревнованиях. Мы и Вас призываем приобщаться к велосипедной культуре,ведь в нашей стране она стремительно развивается. 
+							Катаясь на велосипеде мы ведем здоровый образ жизни, тем самым продлевая заядлыедоровье себе и своим детям.
+						</p>
+						<p class="about_us__paragraph">
+							Мы продаем велосипеды самых разных производителей. У нас каждый найдет для себя велосипед, велосипедные аксессуары, велосипедные запчасти,получит обширную и грамотною консультацию.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="consult">
+				<h2 class="consult__title">НУЖНА КОНСУЛЬТАЦИЯ?</h2>
+				<p class="consult__text">
+					Оставьте свои данные и мы свяжемся с вами в ближайшее время
+				</p>
+				<form class="consult__form">
+					<div class="input_name__wrap"><input type="text" class="input_name" name="Name" placeholder="Имя" required></input></div>
+					<div class="input_tel__wrap"><input type="tel" class="input_tel" name="phone number" placeholder="Телефон" required></input></div>
+					<button class="consult__btn" action="#">ОТПРАВИТЬ</button>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<a class="footer__logo" href="#"><img class="logo" src="images/logo.png" alt="BestBike Logo"></a>
+			<div class="footer__links">
+				<div class="footer__links--links">
+					<a class="footer__links--link" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a class="footer__links--link" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a class="footer__links--link" href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+				</div>
+				<p class="footer__text">
+					Bike Sport 2011-2018
+				</p>
+			</div>
+			<nav class="footer__nav">
+				<ul class="footer__linklist">
+					<li class="footer__item">
+						<a href="#" class="footer__link">ГОРНЫЕ</a>
+					</li>
+				 	<li class="footer__item">
+						<a href="#" class="footer__link">ФЭТБАЙКИ</a>
+					</li>
+				 	<li class="footer__item">
+						<a href="#" class="footer__link">ДОРОЖНЫЕ</a>
+					</li>
+				 	<li class="footer__item">
+						<a href="#" class="footer__link">ЖЕНСКИЕ</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="info">
+				<a class="footer__tel" href="tel:+380639404740">+38 (063) 940 47 40</a>
+				<p class="info__text">
+					С 9:00 до 21:00 без выходных.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
