@@ -685,6 +685,7 @@ body {
         min-width: 320px;
         box-sizing: border-box;
     }
+
     .fotorama {
         display: none;
     }
@@ -970,6 +971,10 @@ body {
     position: relative;
     left: 0;
     top: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header__logo {
@@ -978,11 +983,20 @@ body {
 }
 
 .header__nav { 
-    display: none;
+    margin: 0 auto;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .header__linklist {
     padding-left: 0;
+    flex-flow: column;
+    justify-content: space-between;
     align-content: center;
 }
 
@@ -1028,6 +1042,9 @@ body {
     right: -9px;
 }
 
+.dropmenu {
+    left: 70px;
+}
 
 .searchbox {
     display: none;
@@ -1065,5 +1082,4 @@ body {
     margin-bottom: 28px;
     display: none;
 }
-
 }
